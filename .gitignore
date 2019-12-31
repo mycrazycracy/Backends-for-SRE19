@@ -1,0 +1,7 @@
+result_*
+run_old*
+
+.vimrc
+
+*.pyc
+*.tsv
