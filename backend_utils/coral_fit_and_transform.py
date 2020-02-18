@@ -43,7 +43,7 @@ transform_ood_vec = np.dot(np.dot(ood_vec, whitening), coloring)
 if not os.path.isdir(transform_dir):
     os.makedirs(transform_dir)
 
-with open(os.path.join(transform_dir, 'xvector_transformed.ark'), 'w') as f:
+with open(os.path.join(transform_dir, 'xvector_transformed.ark'), 'wb') as f:
     for index, key in enumerate(ood_keys):
         kaldi_io.write_vec_flt(f, transform_ood_vec[index], key=key)
         
