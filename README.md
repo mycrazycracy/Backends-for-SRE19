@@ -62,6 +62,3 @@ cd kaldi/egs/sre19
 Git clone this repository in the sre19 directory. 
 To score the systems, you need to download the Key files provided by NIST. I only include the scoring tools provided during NIST SRE19. The tools are developed by NIST.
 
-## Last words
-
-Please try these backends. If you find anything wrong, please make a issue. I will try to improve it. Enjoy!
